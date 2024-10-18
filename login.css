@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to bottom, #f0d4af, #f7c6e0); /* Degradê de marrom pastel para rosa pastel */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+ }
+ .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+ }
+ h3 {
+    font-size: 28px;
+    text-align: left;
+ }
+ form {
+    display: flex;
+    flex-direction: column;
+ }
+ input {
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+ }
+ button#acessarBtn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ button#acessarBtn:hover {
+    background-color: #0056b3;
+ }
